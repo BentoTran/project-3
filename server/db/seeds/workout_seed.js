@@ -72,4 +72,16 @@ exports.seed = async function (knex) {
     { id: 4, workout_id: 2, exercise_id: 4, sets: 3, reps: 10 },
     { id: 5, workout_id: 3, exercise_id: 5, sets: 4, reps: 8 },
   ]);
+
+  await knex.raw(`
+    SELECT setval('"workouts_id_seq"', (SELECT MAX(id) FROM workouts));
+  `);
+
+  await knex.raw(`
+    SELECT setval('"exercises_id_seq"', (SELECT MAX(id) FROM exercises));
+  `);
+
+  await knex.raw(`
+    SELECT setval('"workout_exercises_id_seq"', (SELECT MAX(id) FROM workout_exercises));
+  `);
 };
