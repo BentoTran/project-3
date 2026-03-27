@@ -1,4 +1,15 @@
 services:
+  client:
+    build: ./client
+    container_name: workout_client
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    depends_on:
+      - server
+
   server:
     build: ./server
     container_name: workout_server
