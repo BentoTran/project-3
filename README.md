@@ -1,6 +1,6 @@
-# 🏋️ Workout Planner App
+# Workout Planner App
 
-## 📌 Description
+## Description
 
 The Workout Planner App is a full-stack web application that allows users to create, manage, and organize workouts and exercises. Users can build custom workouts, assign exercises to workouts, and define sets and reps for each exercise.
 
@@ -8,7 +8,6 @@ This project demonstrates a complete full-stack architecture including a RESTful
 
 ---
 
-## 🚀 Tech Stack
 
 ### Frontend
 
@@ -30,7 +29,7 @@ This project demonstrates a complete full-stack architecture including a RESTful
 
 ---
 
-## 🗂️ Database Design
+## Database Design
 
 ### Tables
 
@@ -66,7 +65,7 @@ This project demonstrates a complete full-stack architecture including a RESTful
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -83,7 +82,7 @@ docker compose up --build
 
 ---
 
-## 🧱 Database Setup
+## Database Setup
 
 ### Run migrations
 
@@ -99,7 +98,7 @@ docker exec -it workout_server npx knex seed:run
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 docker exec -it workout_server npm test
@@ -107,14 +106,14 @@ docker exec -it workout_server npm test
 
 ---
 
-## 🌐 Application URLs
+## Application URLs
 
 * Frontend: http://localhost:5173
 * Backend API: http://localhost:3000
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### 🏋️ Workouts
 
@@ -133,7 +132,7 @@ docker exec -it workout_server npm test
 
 ---
 
-### 💪 Exercises
+### Exercises
 
 | Method | Endpoint       | Description       |
 | ------ | -------------- | ----------------- |
@@ -150,7 +149,7 @@ docker exec -it workout_server npm test
 
 ---
 
-### 🔗 Workout Exercises (Nested Routes)
+### Workout Exercises (Nested Routes)
 
 | Method | Endpoint                           | Description              |
 | ------ | ---------------------------------- | ------------------------ |
@@ -161,7 +160,7 @@ docker exec -it workout_server npm test
 
 ---
 
-## 🖥️ Frontend Features
+## Frontend Features
 
 ### Workouts Page
 
@@ -188,51 +187,8 @@ docker exec -it workout_server npm test
 
 ---
 
-## 🧠 Key Features
 
-* Full CRUD functionality across all resources
-* Query parameter filtering
-* Nested RESTful routes
-* Many-to-many relational database design
-* Dockerized full-stack environment
-* Responsive UI with Tailwind CSS
-* Backend testing with Jest & SuperTest
-
----
-
-## 📁 Project Structure
-
-```txt
-root/
-  client/
-    src/
-      pages/
-      App.jsx
-      main.jsx
-    Dockerfile
-
-  server/
-    db/
-      migrations/
-      seeds/
-      knex.js
-    routes/
-      workoutsRoutes.js
-      exercisesRoutes.js
-      workoutExercisesRoutes.js
-    tests/
-      api.test.js
-    app.js
-    server.js
-    knexfile.js
-
-  docker-compose.yml
-  README.md
-```
-
----
-
-## 🏁 Future Improvements
+## Future Improvements
 
 * User authentication (login/register)
 * Save favorite workouts
@@ -244,10 +200,6 @@ root/
 
 ## 👤 Author
 
-Tran
+Benjamin Tran
 
 ---
-
-## 📄 License
-
-This project is for educational purposes.
