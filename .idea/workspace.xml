@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="819fc62b-473b-48af-899d-331c1f02236d" name="Changes" comment="help me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ExercisesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ExercisesPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/WorkoutsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/WorkoutsPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +99,7 @@
       <updated>1774452749010</updated>
       <workItem from="1774452750119" duration="9476000" />
       <workItem from="1774533337153" duration="124000" />
-      <workItem from="1774533468783" duration="38560000" />
+      <workItem from="1774533468783" duration="40508000" />
     </task>
     <task id="LOCAL-00001" summary="please work">
       <option name="closed" value="true" />
