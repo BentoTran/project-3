@@ -193,8 +193,6 @@ docker exec -it workout_server npm test
 * User authentication (login/register)
 * Save favorite workouts
 * Workout history tracking
-* Mobile UI improvements
-* Deployment (Render, Railway, etc.)
 
 ---
 
